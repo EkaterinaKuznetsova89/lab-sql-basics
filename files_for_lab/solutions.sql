@@ -1,4 +1,4 @@
-SELECT account_id FROM account WHERE district_id = 1 LIMIT 5;
+SELECT client_id FROM client WHERE district_id = 1 LIMIT 5;
 SELECT client_id FROM client ORDER BY client_id DESC LIMIT 1;
 SELECT amount FROM loan ORDER BY amount ASC LIMIT 3;
 SELECT DISTINCT status FROM loan ORDER BY STATUS ASC;
